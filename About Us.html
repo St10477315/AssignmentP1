@@ -8,46 +8,82 @@
 </head>
 <body>
     <H1>About Us</H1>
-    <p>
-        At Bagwera Road Trips, we’re more than just a tour operator — we’re a community of explorers, adventurers, and memory-makers.
-        Born from a passion for travel and connection, we specialize in crafting exciting, well-curated itineraries that take you off 
-        the beaten path and into unforgettable experiences.
-    </p>
-    <p>
-        Whether you're chasing sunsets, discovering hidden gems, or bonding with fellow travellers, our trips are designed to spark 
-        adventure and create lasting friendships. We believe that travel is not just about the destination — it’s about the journey,
-         the people you meet, and the stories you collect along the way.
-    </p>
-    <p>
-        •	Join us as we explore new places, embrace new cultures, and build a tribe of like-minded adventurers who share a love for the open road.
-    </p>
-    <nav class="navbar">
+    <nav>
         <ul>
             <li><a href="Home.html">Home</a></li>
-            <li><a href="Cape Town.html">Destinations</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="Contact Us.html">Contact</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
         </ul>
     </nav>
-    <div class="card">
-        <img src="Images/Namibia.jpg" alt="Namibia" />
-        <div class="card-content">
-            <h3>Namibia</h3>
-            <p>Experience the vibrant life of world cities.</p>
+</header>
+
+<section class="hero">
+    <h2>Discover Amazing Places</h2>
+    <p>Your adventure begins here. Book your dream trip today!</p>
+    <button onclick="alert('Booking feature coming soon!')">Get Started</button>
+</section>
+
+<section id="destinations" class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Paris" />
+            <h3>Paris, France</h3>
+            <p>The city of lights and love.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Bali" />
+            <h3>Bali, Indonesia</h3>
+            <p>Beautiful beaches and vibrant culture.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="New York" />
+            <h3>New York, USA</h3>
+            <p>The city that never sleeps.</p>
         </div>
     </div>
-    <div class="card">
-        <img src="Images/Namibia.jpg" alt="Namibia" />
-        <div class="card-content">
-            <h3>Namibia</h3>
-            <p>Experience the vibrant life of world cities.</p>
+</section>
+
+<section id="packages" class="packages">
+    <h2>Travel Packages</h2>
+    <div class="packages-container">
+        <div class="package">
+            <h3>Romantic Getaway</h3>
+            <p>Enjoy a romantic trip with your loved one in Paris.</p>
+            <button>Book Now</button>
         </div>
-    </div> <div class="card">
-        <img src="Images/Namibia.jpg" alt="Namibia" />
-        <div class="card-content">
-            <h3>Namibia</h3>
-            <p>Experience the vibrant life of world cities.</p>
+        <div class="package">
+            <h3>Adventure Tour</h3>
+            <p>Explore Bali's beaches and jungles.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <h3>City Exploration</h3>
+            <p>Discover New York's iconic landmarks.</p>
+            <button>Book Now</button>
         </div>
     </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are passionate travel experts dedicated to helping you explore the world. Our mission is to provide personalized travel experiences that create lifelong memories.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Explore the World. All rights reserved.</p>
+</footer>
+
+
 </body>
 </html>

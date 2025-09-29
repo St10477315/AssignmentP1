@@ -8,13 +8,88 @@
 </head>
 <body>
     <h1>Zanzibar</h1>
-    <nav class="navbar">
+    <nav>
         <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="Locations.html">Destinations</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="Contact Us.html">Contact</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+</header>
+
+<section class="hero">
+    <h2>Discover Amazing Places</h2>
+    <p>Your adventure begins here. Book your dream trip today!</p>
+    <button onclick="alert('Booking feature coming soon!')">Get Started</button>
+</section>
+
+<section id="destinations" class="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Paris" />
+            <h3>Paris, France</h3>
+            <p>The city of lights and love.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Bali" />
+            <h3>Bali, Indonesia</h3>
+            <p>Beautiful beaches and vibrant culture.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="New York" />
+            <h3>New York, USA</h3>
+            <p>The city that never sleeps.</p>
+        </div>
+    </div>
+</section>
+
+<section id="packages" class="packages">
+    <h2>Travel Packages</h2>
+    <div class="packages-container">
+        <div class="package">
+            <h3>Romantic Getaway</h3>
+            <p>Enjoy a romantic trip with your loved one in Paris.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <h3>Adventure Tour</h3>
+            <p>Explore Bali's beaches and jungles.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="package">
+            <h3>City Exploration</h3>
+            <p>Discover New York's iconic landmarks.</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are passionate travel experts dedicated to helping you explore the world. Our mission is to provide personalized travel experiences that create lifelong memories.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Explore the World. All rights reserved.</p>
+</footer>
+
+
+  
+        
+          
+</body>
+</html>
 </body>
 </html>
